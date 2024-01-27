@@ -123,4 +123,4 @@ function App() {
 
 export default App
 ```
-This maybe not the correct words but i have answerd it with my understanding till now, Thank you
+This maybe not the correct answer but i have answerd it with my understanding till now, Thank you
