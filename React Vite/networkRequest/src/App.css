@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: aliceblue; */
+  /* column-rule: black  ; */
+  /* color: black; */
+}
+
+.card {
+  padding: 2em;
+}
+
+
+.grid{
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.main{
+  color: black;
+  background-color: aliceblue;
+  /* padding: 20px; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
