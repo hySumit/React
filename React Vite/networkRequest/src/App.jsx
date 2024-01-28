@@ -15,7 +15,7 @@ function App() {
       setIsloading(true)
  
 
-    setTimeout( async ()=>{
+    setTimeout( async ()=>{ // i am using setTimeout here because i have to show the demonstration of is loading
 
       try {
         let response = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=12");
@@ -31,7 +31,8 @@ function App() {
       
       finally{
           setIsloading(false)
-        }
+        } // it will forcefully will be executed and it will help us to show the loading msg weather data is fetched or not
+        
     },2000)
       
     }
